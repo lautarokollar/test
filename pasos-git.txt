@@ -36,4 +36,11 @@ Para saber a que direccion remota esta conectado nuestro repo
 si queremos actualizar/sincronizar nuestro repositorio local con el remoto debemos ejecutar 
   git add .
   git commit -m "comentario"
-  git push    
+  git push 
+
+donde dice fetch es de donde vamos a sacar la info y donde dice push es donde se va a actualizar
+fetch es para traer y push para enviar
+
+para subir el ultimo commit a la nube usamos
+    git push -u origin main
+
